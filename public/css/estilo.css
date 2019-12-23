@@ -1,0 +1,347 @@
+body
+{	
+	background: url('wall.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family:Segoe UI;
+}
+
+a
+{
+	text-decoration: none;
+	color: white;
+}
+
+
+.nav_bar
+{
+	margin: 0 auto;
+	width: 90%;
+	border-radius: 10px 10px 1000px 1000px;
+	height: 50px;
+    background: #df8d82;
+    box-shadow: 0px 0px 2px 1px #392c50;
+    margin-bottom: 30px;
+}
+
+.nav_bar_2
+{
+	margin: 0 auto;
+	width: 90%;
+	border-radius: 10px 10px 1000px 1000px;
+	height: 50px;
+    background-color: #343135;
+    box-shadow: 0px 0px 2px 1px #392c50;
+    margin-bottom: 30px;
+}
+
+
+
+.nav_bar_opcao
+{
+	display: inline-block;
+	padding: 10px;
+	margin-left: 35px;
+	font-weight: 200;
+	font-size: 22px;
+	color: white;
+}
+
+.nav_bar_input
+{
+	width: 20%;
+	margin-left: 10px;
+	height: 25px;
+	padding: 3px;
+	border-radius: 4px;
+	border-style: none;
+	outline: none;
+	border:1px solid #a9a49e;	
+}
+
+.nav_bar_submit
+{
+	height: 25px;
+	padding: 3px;
+	border-style: none;
+	outline: none;
+	width: 4%;
+	margin-left: 10px;
+	color: #736a6a;
+	background-color: #fdbd93;
+	border-radius: 2px;
+	transition: 0.4s ease-in;
+}
+
+.img_trocar
+{
+	position: absolute;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.nav_bar_submit:hover
+{
+	transition: 0.4s ease-out;
+	background-color: #b9ac9a;
+}
+
+.controle_fluxo
+{
+    margin: auto;
+    background-color: #cbb2cf;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+}
+
+.box_principal
+{
+    display: inline-block;    
+	width: 50%;
+    height: 530px;   
+    background-color: #df8d827a;  
+}
+
+.box_credito
+{	
+	margin-left: 10px;
+	float: right;
+	display: inline-block;
+	width: 49%;
+    height: 530px;    
+    background-color: #b4afb54d;        
+}
+
+.titulo
+{
+	padding: 8px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #625e63;
+    background: #df8d82;
+	color: white;
+}
+
+.titulo_credito
+{
+	padding: 8px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #df8d82;
+	background-color: #343135;
+	color: white;
+}
+
+.conteudo
+{
+   padding: 15px;
+}
+
+.box_tabela
+{
+	overflow-y: auto;
+	height: 400px;
+	margin-top: 10px;
+}
+
+.box_tabela::-webkit-scrollbar
+{
+	margin-top: 50px;
+	width: 10px;
+}
+
+.box_tabela::-webkit-scrollbar-track-piece 
+{
+	background-color: #e8d9d9;
+}
+
+.box_tabela::-webkit-scrollbar-thumb:vertical
+{
+	height: 30px;
+	background-color: #753939;
+}
+
+.tarefaTabela
+{
+	border-spacing: 0px 10px;
+	width: 100%;
+	font-size: 12px;
+	font-weight: 400;	
+	max-height: 350px;	
+}
+
+.tarefaTituloTabela
+{
+	text-align: left;
+	padding: 8px;
+	padding-bottom: 1px;
+}
+
+/* nome */
+.tarefaTituloTabela:nth-child(1) 
+{
+	width: 25%;
+}
+
+/* parcelas */
+.tarefaTituloTabela:nth-child(2) 
+{
+	width: 10%;
+}
+
+/* preco */
+.tarefaTituloTabela:nth-child(3) 
+{
+	width: 10%;
+}
+
+/* acoes */
+.tarefaTituloTabela:nth-child(4) 
+{	
+	width: 15%;
+}
+
+
+.tarefaLinhaTabela
+{
+	background-color: #ececed;
+}
+
+.tarefaLinhaTabelaDividaEXT
+{
+	background-color: #d27474;
+}
+
+.tarefaDataTabela
+{	
+	padding: 8px;
+}
+
+/* nome */
+.tarefaDataTabela:nth-child(1) 
+{
+	border-top-left-radius: 5px; 
+    border-bottom-left-radius: 5px;
+	word-break: break-word;
+	overflow-wrap: break-word;
+	width: 25%;
+}
+
+/* parcelas */
+.tarefaDataTabela:nth-child(2) 
+{
+	width: 10%;
+}
+
+/* preco */
+.tarefaDataTabela:nth-child(3) 
+{
+	width: 10%;
+}
+
+/* Inputs e Tags */
+.tarefaDataTabela:nth-child(4) 
+{	
+	text-align: center;
+	width: 15%;
+	background-color: #e89b91;
+	border-top-right-radius: 15px; 
+    border-bottom-right-radius: 15px;
+}
+
+.tarefaDataTabela_cre
+{	
+	padding: 8px;
+}
+
+/* nome */
+.tarefaDataTabela_cre:nth-child(1) 
+{
+	border-top-left-radius: 5px; 
+    border-bottom-left-radius: 5px;
+	word-break: break-word;
+	overflow-wrap: break-word;
+	width: 25%;
+}
+
+/* parcelas */
+.tarefaDataTabela_cre:nth-child(2) 
+{
+	width: 10%;
+}
+
+/* preco */
+.tarefaDataTabela_cre:nth-child(3) 
+{
+	width: 10%;
+}
+
+/* Inputs e Tags */
+.tarefaDataTabela_cre:nth-child(4) 
+{	
+	text-align: center;
+	width: 15%;
+	background-color: #343135;
+	border-top-right-radius: 15px; 
+    border-bottom-right-radius: 15px;
+}
+
+.deletar
+{
+	text-decoration: none;
+	color: white;
+	font-weight: 600;
+}
+
+.cash
+{
+    color: #3e793e;
+    font-size: 18px;
+}
+
+.sobra
+{
+    color: #4278a5;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.pagar
+{
+	color: #c13a3a;
+	font-size: 18px;
+	padding-left: 15px;
+}
+
+.pagar_tit
+{
+	color: white;
+	font-size: 18px;
+	float: right;
+}
+
+.botao_paguei
+{
+	height: 25px;
+    padding: 3px;
+    width: 10%;
+    color: #423e3d;
+    background-color: #fdbd93;
+    border-radius: 2px;
+    transition: 0.4s ease-in;
+    text-align: center;
+    float: right;
+    margin-right: 10px;
+    border: 1px solid #706c71;
+}
+
+.botao_paguei:hover
+{
+	transition: 0.4s ease-out;
+	background-color: gray;
+	color: white;
+	border: 1px solid #fdbd93;
+}
