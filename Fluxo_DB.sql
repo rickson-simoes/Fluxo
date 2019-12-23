@@ -56,15 +56,6 @@ CREATE TABLE `armazenadors_credito` (
 ) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
---
--- Dumping data for table `armazenadors_credito`
---
-
-LOCK TABLES `armazenadors_credito` WRITE;
-/*!40000 ALTER TABLE `armazenadors_credito` DISABLE KEYS */;
-INSERT INTO `armazenadors_credito` VALUES (3,'Academia',1.00,70.00),(10,'Spotify - Dia 13',1.00,17.00),(12,'Amazon Prime Video - Dia 23',1.00,8.00),(14,'Netflix - Dia 21',1.00,33.00),(15,'Net Virtua',1.00,116.00);
-/*!40000 ALTER TABLE `armazenadors_credito` ENABLE KEYS */;
-UNLOCK TABLES;
 
 --
 -- Table structure for table `migrations`
